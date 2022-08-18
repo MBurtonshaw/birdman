@@ -34,7 +34,7 @@
       <div class="container-fluid col-6 text-center py-5">
         <img class="p-5 img-fluid rounded-pill" src="img/blue_birdman.jpg">
         <div class="btn-group col-6" role="group" aria-label="Basic mixed styles example">
-          <button type="button" class="btn btn-warning">Have a Case?</button>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#register">Have a Case?</button>
         </div>
       </div>
   </div>
@@ -49,11 +49,13 @@
     <div class="text-center col col-lg-5 py-5 mt-5">
       <h1 class="display-5">Bird is the Word</h1>
       <div class="container">
-        <p class="p-3 lead">Harvey Raymond Randall Birdman attorney at law, is a highly qualified professional. And he has a pet falcon or something.
-          He has won many high profile cases, which you may see the details of below. If you have an interest in Mr. Birdman
-          representing you in an upcoming case, please contact us.
+        <p class="p-3 lead">
+          Harvey Raymond Randall Birdman, the superhero formerly known as Birdman, is now a practicing lawyer.
+          He has won many high profile cases, which you may see the details of below.
+          If you have an interest in Mr. Birdman representing you in an upcoming case, 
+          and you are a cartoon character, please contact us.
         </p>
-        <button class="btn btn-outline-primary px-5">Fill Out A Form</button>
+        <button class="btn btn-outline-primary px-5" data-bs-toggle="modal" data-bs-target="#register">Fill Out A Form</button>
         </div>
     </div>
 
@@ -101,10 +103,10 @@
           <div class="card-body">
             <h5 class="card-title fs-3 fw-bolder">Speed Buggy v California</h5>
             <p class="card-text">
-              Mr. Speed Buggy was found driving recklessly on the interstate which turned into 
-              a high speed chase, and Mr. Buggy attempting to jump the median in the road.
-              In court, it was determined that Mark and Debbie, two acquaintances of Mr. Buggy,
-              were sitting on the sentient car's remote control.
+              Mx. Speed Buggy was found driving recklessly on the interstate which turned into 
+              a high speed chase, including Mx. Buggy attempting to jump the median in the road.
+              In court, it was determined that Mark and Debbie, two acquaintances of Mx. Buggy,
+              were sitting on the sentient vehicle's remote control.
             </p>
           </div>
         </div>
@@ -143,15 +145,15 @@
     <!--/cases-->
     <!--button-->
     <div class="container text-center pt-5">
-      <button class="btn btn-primary px-5">Schedule an Appointment Today!</button>
+      <button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#register">Schedule an Appointment Today!</button>
     </div>
       <!--/button-->
           <!-- footer -->
           <div id="contact" class="row pt-5 text-center">
             <div class="col-md-7">
               <nav class="nav">
-                <a class="nav-link" aria-current="footer" href="#">Submit Form</a>
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link col" aria-current="footer" href="#">Submit Form</a>
+                <a class="nav-link col" href="#">Contact Us</a>
           
                 
               </nav>
@@ -165,18 +167,18 @@
         FORM MODAL
         =====================================-->
 
-        <div class="modal fade" id="register" tabindex="-1">
-          <div class="modal-dialog" role="document">
+        <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title">Register for Full Stack Conf</h5>
-                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"> x </button>
+                <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <p>Form goes here.</p>
+                Form goes here
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Save changes</button>
               </div>
             </div>
