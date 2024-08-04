@@ -1,4 +1,4 @@
-An app demonstrating gardening in Northern Winter climate. Built with create-react-app, routing done with React, and Bootstrap used for styling.
+A commercial website for Harvey Birdman, Attorney at Law. Built with HTML and Bootstrap.
 
 # To Run
 npm start
