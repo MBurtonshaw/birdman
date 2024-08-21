@@ -1,3 +1,4 @@
+<h2>Harvey Birdman, Attorney at Law</h2>
 <h3 align="center">A commercial website for a cartoon lawyer</h3>
 
 <h3 align="left">Languages and Tools:</h3>
